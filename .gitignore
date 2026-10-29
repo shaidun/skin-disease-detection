@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# Data and model artifacts (do not commit datasets or large weights by default)
+data/
+datasets/
+*.h5
+*.keras
+*.weights.h5
+*.ckpt
+*.pb
+*.tflite
+
+# Local outputs
+outputs/
+logs/
+*.csv
+*.zip
+.DS_Store
+Thumbs.db
